@@ -14,6 +14,7 @@ import CoreSpotlight
 import UserNotifications
 import Account
 import BackgroundTasks
+import SDWebImage
 
 let LatestAppVersionProfileKey = "latestAppVersion"
 
@@ -178,6 +179,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         scheduleBGSync(application: application)
 
         tabManager.preserveTabs()
+
+        // send glean telemetry and clear cache
+        SDImageCache.shared.clearDiskCache { _ in }
     }
 
     private func updateTopSitesWidget() {
