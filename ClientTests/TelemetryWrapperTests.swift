@@ -302,4 +302,11 @@ extension XCTestCase {
         XCTAssertTrue(metric.testHasValue(), "Should have value on uuid metric")
         XCTAssertEqual(value, expectedValue, failureMessage)
     }
+
+// MARK: - Migration
+
+    func test_SDWebImageDiskCacheClear_GleanIsCalled() {
+        TelemetryWrapper.recordEvent(category: .information, method: .delete, object: .clearSDWebImageCache)
+        testCounterMetricRecordingSuccess(metric: GleanMetrics.Migration.imageSdCacheCleanup)
+    }
 }

@@ -344,6 +344,7 @@
 		437A9B682681256800FB41C1 /* InactiveTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A9B672681256800FB41C1 /* InactiveTabCell.swift */; };
 		437A9B6A2681257F00FB41C1 /* InactiveTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A9B692681257F00FB41C1 /* InactiveTabViewModel.swift */; };
 		439086AB286CE61600897904 /* SDWebImageCacheExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439086AA286CE61600897904 /* SDWebImageCacheExtension.swift */; };
+		439086AD286E415000897904 /* ImageLoadingHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439086AC286E414F00897904 /* ImageLoadingHandlerTests.swift */; };
 		4390F7FF246DAFBE00570811 /* FirefoxColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4390F7FE246DAFBE00570811 /* FirefoxColors.swift */; };
 		4392FB20252EC49D00AD3D23 /* SessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C027441B2A348C001B1E88 /* SessionData.swift */; };
 		4392FB34252EC4CE00AD3D23 /* SessionRestoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4869C2195F58300CDA48D /* SessionRestoreHandler.swift */; };
@@ -2301,6 +2302,7 @@
 		437A9B692681257F00FB41C1 /* InactiveTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveTabViewModel.swift; sourceTree = "<group>"; };
 		43904ED28118BAD713896491 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
 		439086AA286CE61600897904 /* SDWebImageCacheExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageCacheExtension.swift; sourceTree = "<group>"; };
+		439086AC286E414F00897904 /* ImageLoadingHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingHandlerTests.swift; sourceTree = "<group>"; };
 		4390F7FE246DAFBE00570811 /* FirefoxColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirefoxColors.swift; sourceTree = "<group>"; };
 		439B008A26E6CE2100DFAF14 /* GroupedTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedTabCell.swift; sourceTree = "<group>"; };
 		43A5643523CD1E1B00B6857D /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
@@ -7122,6 +7124,7 @@
 				C8501F5028510DA1003B09AB /* WallpaperMigrationUtilityTests.swift */,
 				E4CD9F1C1A6D9C2800318571 /* WebServerTests.swift */,
 				D3BA41671BD82F2200DA5457 /* XCTestCaseExtensions.swift */,
+				439086AC286E414F00897904 /* ImageLoadingHandlerTests.swift */,
 			);
 			path = ClientTests;
 			sourceTree = "<group>";
@@ -9706,6 +9709,7 @@
 				D525DFB325FBE5E000B18763 /* TabTests.swift in Sources */,
 				C8E78BDD27F4A1E700C48BAA /* HistoryDeletionUtilityTests.swift in Sources */,
 				8A11C8132731E54800AC7318 /* DictionaryExtensionsTests.swift in Sources */,
+				439086AD286E415000897904 /* ImageLoadingHandlerTests.swift in Sources */,
 				8A7A93EE2810ADF2005E7E1B /* ContileProviderTests.swift in Sources */,
 				8A33221F27DFE318008F809E /* FxHomeTopSitesManagerTests.swift in Sources */,
 				2165B2C02860BB41004C0786 /* AdjustTelemetryHelperTests.swift in Sources */,
