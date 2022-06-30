@@ -6,6 +6,7 @@ import Foundation
 import Glean
 import SDWebImage
 
+// TODO: This file and all its methods should be removed once we are ready to remove SDWebImage from out app
 struct SDWebImageCacheKey {
     public static let hasClearedCacheKey = "HasClearedCacheKey"
 }
