@@ -2809,7 +2809,7 @@ migration:
         Counts the number of times a user runs the
         sd web image library cache cleanup
     bugs:
-      - https://mozilla-hub.atlassian.net/browse/FXIOS-4321
+      - https://github.com/mozilla-mobile/firefox-ios/issues/10903
     data_reviews:
       - https://github.com/mozilla-mobile/firefox-ios/pull/11169
     notification_emails:
