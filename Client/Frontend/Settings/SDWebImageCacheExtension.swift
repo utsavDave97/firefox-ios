@@ -16,7 +16,7 @@ extension SDImageCache {
     func clearDiskCache(completion: @escaping (Bool) -> Void) {
         let defaults = UserDefaults.standard
         let hasClearedDiskCache = defaults.bool(forKey: SDWebImageCacheKey.hasClearedCacheKey)
-        guard hasClearedDiskCache == false else {
+        guard !hasClearedDiskCache else {
             completion(false)
             return
         }

@@ -26,6 +26,9 @@ class ImageLoadingHandlerTests: XCTestCase {
 
         SDImageCache.shared.clearDiskCache { didClear in
             XCTAssertTrue(didClear)
+            let defaults = UserDefaults.standard
+            let hasClearedDiskCache = defaults.bool(forKey: SDWebImageCacheKey.hasClearedCacheKey)
+            XCTAssertTrue(hasClearedDiskCache)
             expectation.fulfill()
         }
 
