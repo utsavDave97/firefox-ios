@@ -55,6 +55,9 @@
 /* Title for info card when the product needs analysis */
 "Shopping.InfoCard.NeedsAnalysis.Title.v120" = "ข้อมูลใหม่ที่ต้องตรวจสอบ";
 
+/* Description for info card when no information is available at the moment */
+"Shopping.InfoCard.NoInfoAvailableRightNow.Description.v120" = "เรากำลังดำเนินการแก้ไขปัญหานี้ โปรดกลับมาตรวจสอบอีกครั้งเร็วๆ นี้";
+
 /* Title for info card when no information is available at the moment */
 "Shopping.InfoCard.NoInfoAvailableRightNow.Title.v120" = "ไม่มีข้อมูลในขณะนี้";
 
@@ -94,6 +97,9 @@
 /* Show Firefox Browser Terms of Use page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/ */
 "Shopping.OptInCard.TermsOfUse.Button.Title.v120" = "เงื่อนไขการใช้งาน";
 
+/* Accessibility label for the Grade labels used in 'How we determine review quality' card and 'How reliable are these reviews' card displayed in the shopping review quality bottom sheet. The placeholder will be replaced by a grade letter (e.g. A). The grading system contains letters from A-F. */
+"Shopping.ReliabilityScore.Grade.A11y.Label.v120" = "ระดับ %@";
+
 /* Title of the reliability card displayed in the shopping review quality bottom sheet. */
 "Shopping.ReviewQuality.ReliabilityCardTitle.v120" = "บทวิจารณ์เหล่านี้น่าเชื่อถือแค่ไหน?";
 
@@ -106,6 +112,21 @@
 /* Description of the reliability ratings for rating 'D' and 'F' displayed in the shopping review quality bottom sheet. */
 "Shopping.ReviewQuality.ReliabilityRating.DF.Description.v120" = "บทวิจารณ์ที่ไม่น่าเชื่อถือ";
 
+/* Title of the 'How we determine review quality' card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.Label.Title.v120" = "วิธีที่เราพิจารณาคุณภาพบทวิจารณ์";
+
+/* Mixed reviews label from How we determine review quality card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.MixedReviews.Label.v120" = "เราเชื่อว่ามีทั้งบทวิจารณ์ที่น่าเชื่อถือและไม่น่าเชื่อถือปะปนกัน";
+
+/* Reliable reviews label from How we determine review quality card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.ReliableReviews.Label.v120" = "บทวิจารณ์ที่น่าเชื่อถือ เราเชื่อว่าบทวิจารณ์นั้นน่าจะมาจากลูกค้าจริงซึ่งให้คำวิจารณ์อย่างตรงไปตรงมาและไม่มีอคติ";
+
+/* Label of the sub headline from How we determine review quality card displayed in the shopping review quality bottom sheet. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly. */
+"Shopping.ReviewQualityCard.SubHeadline.Label.v120" = "เรากำหนด*ระดับที่เป็นตัวอักษร*ให้กับบทวิจารณ์ของผลิตภัณฑ์แต่ละรายการตั้งแต่ A ถึง F";
+
+/* Unreliable reviews label from How we determine review quality card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.UnreliableReviews.Label.v120" = "บทวิจารณ์ที่ไม่น่าเชื่อถือ เราเชื่อว่าบทวิจารณ์นั้นน่าจะเป็นของปลอมหรือมาจากผู้วิจารณ์ที่มีอคติ";
+
 /* Accessibility label for the up chevron icon used to collapse or minimize the Settings Card within the shopping product review bottom sheet. */
 "Shopping.SettingsCard.Collapse.AccessibilityLabel.v120" = "ยุบการ์ดการตั้งค่า";
 
@@ -114,6 +135,9 @@
 
 /* Title of the settings card displayed in the shopping review quality bottom sheet. */
 "Shopping.SettingsCard.Label.Title.v120" = "การตั้งค่า";
+
+/* Label of the switch from settings card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the app name. */
+"Shopping.SettingsCard.RecommendedProducts.Label.v120" = "แสดงผลิตภัณฑ์ที่แนะนำโดย %@";
 
 /* Label of the button from settings card displayed in the shopping review quality bottom sheet. */
 "Shopping.SettingsCard.TurnOffButton.Title.v120" = "ปิดตัวตรวจสอบบทวิจารณ์";
