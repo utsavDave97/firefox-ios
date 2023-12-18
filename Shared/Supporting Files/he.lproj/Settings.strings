@@ -29,7 +29,7 @@
 "CreditCards.Settings.UseASavedCard.v112" = "להשתמש בכרטיס שמור?";
 
 /* When a user is in the process of making a purchase, and has at least one saved card, we show this label inside the keyboard hint. This indicates to the user that there are stored cards available for use on this pending purchase. */
-"CreditCards.Settings.UseSavedCardFromKeyboard.v112" = "שימוש בכרטיס שמור";
+"CreditCards.Settings.UseSavedCardFromKeyboard.v112" = "שימוש בכרטיס השמור";
 
 /* Settings section title for the old Firefox account */
 "FxA.FirefoxAccount.v119" = "חשבון";
