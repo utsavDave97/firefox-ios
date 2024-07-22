@@ -1,3 +1,6 @@
 /* Toggle for credit cards syncing setting */
-"FirefoxSync.CreditCardsEngine.v115" = "Targetes de crèdit";
+"FirefoxSync.CreditCardsEngine.v122" = "Formes de pagament";
+
+/* Toggle passwords syncing setting, in the Settings > Sync Data menu of the app. */
+"Sync.LoginsEngine.Title.v122" = "Contrasenyes";
 
