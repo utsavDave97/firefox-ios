@@ -1,6 +1,6 @@
 /* Toggle for credit cards syncing setting */
-"FirefoxSync.CreditCardsEngine.v115" = "Kreditne kartice";
+"FirefoxSync.CreditCardsEngine.v122" = "Načini plaćanja";
 
 /* Toggle passwords syncing setting, in the Settings > Sync Data menu of the app. */
-"Sync.LoginsEngine.Title.v122" = "Gesla";
+"Sync.LoginsEngine.Title.v122" = "Lozinke";
 
